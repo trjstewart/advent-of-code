@@ -1,0 +1,19 @@
+{
+  "name": "advent-of-code-2017",
+  "version": "1.0.0",
+  "description": "Solutions for Advent of Code 2017",
+  "main": "index.js",
+  "author": "Tylor Stewart <trjstewart@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "flow && jest"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^22.0.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.61.0",
+    "jest": "^22.0.4"
+  }
+}
