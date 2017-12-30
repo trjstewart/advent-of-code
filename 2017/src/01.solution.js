@@ -1,6 +1,6 @@
 // @flow
 
-export function inverseCaptcha(input: string, stepCalculator: object): number {
+export function inverseCaptcha(input: string, stepCalculator: (length: number) => number): number {
   return Array.from(input)
     .map(digit => parseInt(digit))
     .reduce((total, digit, i, digits) => {
@@ -13,6 +13,6 @@ export function partOneStepCalculator() {
   return 1
 }
 
-export function partTwoStepCalculator(length: number) {
+export function partTwoStepCalculator(length: number): number {
   return length / 2
 }
