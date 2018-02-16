@@ -2,7 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import { inverseCaptcha, partOneStepCalculator, partTwoStepCalculator } from './01.solution'
 
-describe('Day 1: Inverse Captcha', () => {
+describe('Day 01: Inverse Captcha', () => {
   describe('Part One', () => {
     it('should result in 3', () => expect(inverseCaptcha('1122', partOneStepCalculator)).toBe(3))
     it('should result in 4', () => expect(inverseCaptcha('1111', partOneStepCalculator)).toBe(4))
