@@ -1,0 +1,3 @@
+# [Advent of Code 2019](https://adventofcode.com/2019)
+
+It's been a while since I've written code daily so I'm opting to use TypeScript with the intention of looping back to using Go if time permits. Let's see if this can be the fisrt year I actually finish...

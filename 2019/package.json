@@ -1,0 +1,34 @@
+{
+  "name": "advent-of-code-2019",
+  "version": "0.0.0",
+  "description": "Advent of Code 2019 Programming Challenges",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trjstewart/advent-of-code.git"
+  },
+  "keywords": [
+    "advent-of-code",
+    "advent",
+    "of",
+    "code",
+    "2019",
+    "node",
+    "typescript"
+  ],
+  "author": "Tylor Stewart <trjstewart@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trjstewart/advent-of-code/issues"
+  },
+  "homepage": "https://github.com/trjstewart/advent-of-code#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.2.0",
+    "typescript": "^3.7.2"
+  }
+}
